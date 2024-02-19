@@ -43,3 +43,4 @@ roslaunch onboard_detector run_detector.launch
 ```
 
 결과영상
+https://drive.google.com/file/d/1j_pow2E7rwtA0BgGOqT915b8i4mBVr4S/view?usp=drive_link
