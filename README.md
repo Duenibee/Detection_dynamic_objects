@@ -1,4 +1,4 @@
-![image](https://github.com/Duenibee/detection_dynamic_objects/assets/89338327/28f5d8bb-4ca1-49c9-baa1-11e268c65556)## Youbot Navigation
+## Youbot Navigation
 ![image](https://github.com/Duenibee/detection_dynamic_objects/assets/89338327/020fa68b-383c-4fbb-a09e-b3d804e4c587)
 
 catkin_ws_v2 의 패키지 참조.
