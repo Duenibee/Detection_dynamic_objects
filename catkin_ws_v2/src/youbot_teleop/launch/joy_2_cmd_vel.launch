@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="joy_node" pkg="joy" type="joy_node"/>
+  <!-- <node name="joy_2_cmd_vel" pkg="youbot_teleop" type="joy_2_cmd_vel.py"/> -->
+
+</launch>

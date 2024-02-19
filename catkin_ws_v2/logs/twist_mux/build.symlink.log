@@ -1,0 +1,7 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/twist_mux/cmake/twist_muxConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/twist_mux/cmake/twist_muxConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/twist_mux/twist_mux
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/twist_mux/cmake.lock
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/twist_mux/joystick_relay.py
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/twist_mux/twist_marker
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/twist_mux.pc

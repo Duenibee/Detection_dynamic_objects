@@ -1,0 +1,8 @@
+prefix=/home/dyros/catkin_ws_v2/devel/.private/twist_mux
+
+Name: twist_mux
+Description: Description of twist_mux
+Version: 3.1.3
+Cflags: -I/home/dyros/catkin_ws_v2/src/twist_mux/include
+Libs: -L${prefix}/lib 
+Requires: roscpp std_msgs geometry_msgs visualization_msgs diagnostic_updater

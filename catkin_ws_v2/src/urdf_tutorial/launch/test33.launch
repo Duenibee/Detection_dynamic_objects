@@ -1,0 +1,12 @@
+<launch>
+<node name="world_to_map" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world map"/>
+<node name="map_to_odom" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 map base_link"/>
+<param name="robot_description" command="xacro $(find urdf_tutorial)/urdf/test.xacro" />
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+    <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+        <param name="use_gui" value="1" />
+    </node>
+ 
+    <!-- Launch visualization in rviz -->
+    <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_dual_arm)/urdf.rviz" required="True" /> -->
+</launch>

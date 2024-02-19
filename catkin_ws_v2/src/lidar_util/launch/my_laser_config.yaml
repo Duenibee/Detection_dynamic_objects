@@ -1,0 +1,21 @@
+scan_filter_chain:
+- name: angle
+  type: laser_filters/LaserScanAngularBoundsFilter
+  params:
+    lower_angle: -1.8
+    upper_angle: 1.8
+- type: laser_filters/LaserArrayFilter
+  name: laser_median_filter
+  params:
+    range_filter_chain:
+      - name: median_5
+        type: filters/MultiChannelMedianFilterFloat
+        params:
+          number_of_observations: 5
+          unused: 10
+    intensity_filter_chain:
+      - name: median_5
+        type: filters/MultiChannelMedianFilterFloat
+        params:
+          number_of_observations: 5
+          unused: 10

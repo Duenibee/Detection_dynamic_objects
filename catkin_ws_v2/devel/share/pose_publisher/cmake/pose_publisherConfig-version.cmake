@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/pose_publisher/share/pose_publisher/cmake/pose_publisherConfig-version.cmake

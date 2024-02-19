@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/catkin_tools_prebuild/setup.sh

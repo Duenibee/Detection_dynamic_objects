@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/localization_data_pub/share/localization_data_pub/cmake/localization_data_pubConfig-version.cmake

@@ -1,0 +1,31 @@
+(cl:defpackage yolov8_msgs-msg
+  (:use )
+  (:export
+   "<BB_VEL>"
+   "BB_VEL"
+   "<BOUNDINGBOX2D>"
+   "BOUNDINGBOX2D"
+   "<BOUNDINGBOX3D>"
+   "BOUNDINGBOX3D"
+   "<DETECTION>"
+   "DETECTION"
+   "<DETECTIONARRAY>"
+   "DETECTIONARRAY"
+   "<KEYPOINT2D>"
+   "KEYPOINT2D"
+   "<KEYPOINT2DARRAY>"
+   "KEYPOINT2DARRAY"
+   "<KEYPOINT3D>"
+   "KEYPOINT3D"
+   "<KEYPOINT3DARRAY>"
+   "KEYPOINT3DARRAY"
+   "<MASK>"
+   "MASK"
+   "<POINT2D>"
+   "POINT2D"
+   "<POSE2D>"
+   "POSE2D"
+   "<VECTOR2>"
+   "VECTOR2"
+  ))
+

@@ -1,0 +1,4 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/localization_data_pub/cmake/localization_data_pubConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/localization_data_pub/cmake/localization_data_pubConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/localization_data_pub.pc
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/localization_data_pub/rviz_click_to_2d

@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/obstacle_detector/lib/python3/dist-packages/obstacle_detector/msg/_CircleObstacle.py

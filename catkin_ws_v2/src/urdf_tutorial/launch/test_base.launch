@@ -1,0 +1,12 @@
+<launch>
+<!-- <node name="world_to_map" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world map"/>
+<node name="gripper_palm_to_holder" pkg="tf2_ros" type="static_transform_publisher" args="-0.047 -0.024 0.025 -1.57 -1.57 1.57 gripper_palm_link d435i_holder"/>
+<node name="holder_to_d435i" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 1.57 1.57 d435i_holder camera_link"/> -->
+<!-- <node name="holder_to_d435i" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 -1.57 -1.57 camera_link_2 camera_link"/> -->
+
+	<param name="robot_description" command="$(find xacro)/xacro '$(find youbot_description)/robots/youbot.urdf.xacro'"/>
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher" />
+
+    <!-- Launch visualization in rviz -->
+    <!-- <node name="rviz" pkg="rviz" type="rviz" args="-d $(find my_dual_arm)/urdf.rviz" required="True" /> -->
+</launch>

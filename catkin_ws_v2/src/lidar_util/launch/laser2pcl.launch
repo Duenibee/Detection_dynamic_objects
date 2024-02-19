@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="laser2pcl" pkg="lidar_util" type="laser2pcl"/>
+</launch>

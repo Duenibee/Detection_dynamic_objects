@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="ip_address" default="192.168.0.10"/> 
+  <arg name="frame_id" default="laser"/> 
+
+  <node name="urg_node" pkg="urg_node" type="urg_node" args="_ip_address:=$(arg ip_address) _frame_id:=$(arg frame_id)">
+    <param name="range_min" value="0.1"/>
+    <!-- <param name="angle_max" value="1.5707963"/> -->
+    <!-- <remap from="/scan" to="/raw_scan"/> -->
+  </node>
+  
+  <!-- <node pkg="laser_filters" type="scan_to_scan_filter_chain"
+      name="laser_filter">
+    <rosparam command="load" file="$(find lidar_viz)/laser_config.yaml" />
+    <remap from="scan" to="filtered_scan" />
+  </node> -->
+  
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find lidar_viz)/rviz/laserscan.rviz" output="screen"/>
+</launch>

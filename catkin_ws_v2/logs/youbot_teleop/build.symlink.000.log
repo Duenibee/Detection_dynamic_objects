@@ -1,0 +1,6 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/youbot_teleop/cmake/youbot_teleopConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/youbot_teleop/cmake/youbot_teleopConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/youbot_teleop/key_2_cmd_vel.py
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/youbot_teleop/cmake.lock
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/youbot_teleop/joy_2_cmd_vel.py
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/youbot_teleop.pc

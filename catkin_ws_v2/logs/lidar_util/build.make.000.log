@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target laser2pcl[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/laser2pcl.dir/src/laser2pcl.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/dyros/catkin_ws_v2/devel/.private/lidar_util/lib/lidar_util/laser2pcl[0m
+[100%] Built target laser2pcl

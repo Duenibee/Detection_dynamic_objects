@@ -1,0 +1,6 @@
+<launch>
+	<node name="base_link_to_camera_link" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0 0 0 0 world map"/>
+
+	<rosparam file="$(find map_manager)/cfg/dynamic_map_param.yaml" ns="/dynamic_map"  />
+	<node pkg="map_manager" type="dynamic_map_node" name="dynamic_map_node" output="screen" />
+</launch>

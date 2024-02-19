@@ -1,0 +1,4 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/pose_publisher/cmake/pose_publisherConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/pose_publisher/cmake/pose_publisherConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pose_publisher/pose_publisher
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/pose_publisher.pc

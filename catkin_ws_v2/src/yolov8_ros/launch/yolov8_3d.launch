@@ -1,0 +1,11 @@
+<launch>
+  <!-- <node name="map2base_link" pkg="tf2_ros" type="static_transform_publisher" args="0 0 0.6 -1.57 -1.57 0 map base_link"/> -->
+  <node name="base_link2obstacle" pkg="tf2_ros" type="static_transform_publisher" args="0.15 0 0.4 -1.57 0 0 base_link obs"/>
+
+  <node name="detect_3d_node" type="detect_3d_node.py" pkg="yolov8_ros" output="screen"/>
+  <node name="debug_node" type="debug_node.py" pkg="yolov8_ros" output="screen"/>
+  <node name="yolov8_node" type="yolov8_node.py" pkg="yolov8_ros" output="screen"/>
+  <include file="$(find realsense2_camera)/launch/rs_camera.launch" />
+  
+
+</launch>

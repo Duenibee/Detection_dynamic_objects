@@ -1,0 +1,8 @@
+prefix=/home/dyros/catkin_ws_v2/install
+
+Name: yolov8_ros
+Description: Description of yolov8_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs geometry_msgs cv_bridge sensor_msgs yolov8_msgs

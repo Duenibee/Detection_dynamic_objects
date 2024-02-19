@@ -1,0 +1,10 @@
+<launch>
+    <param name="/get_odom_data_select/select_mode" type="double" value="1"/>
+
+  <node name="get_odom_data_select" type="get_odom_data_select.py" pkg="odom_to_trajectory" output="screen"/>
+  <node name="get_odom_data" type="get_odom_data.py" pkg="odom_to_trajectory" output="screen"/>
+
+  <node name="order_cmd_vel2" type="order_cmd_vel2" pkg="odom_to_trajectory"/>
+  <!-- <node name="order_cmd_vel" type="order_cmd_vel" pkg="odom_to_trajectory"/> -->
+
+</launch>

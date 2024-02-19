@@ -1,0 +1,5 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/odom_to_trajectory/cmake/odom_to_trajectoryConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/odom_to_trajectory/cmake/odom_to_trajectoryConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/odom_to_trajectory/order_cmd_vel2
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/odom_to_trajectory/order_cmd_vel
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/odom_to_trajectory.pc

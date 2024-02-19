@@ -1,0 +1,12 @@
+yolov8_ros
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/cmake.lock /home/dyros/catkin_ws_v2/devel/./cmake.lock
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig-version.cmake /home/dyros/catkin_ws_v2/devel/share/yolov8_ros/cmake/yolov8_rosConfig-version.cmake
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig.cmake /home/dyros/catkin_ws_v2/devel/share/yolov8_ros/cmake/yolov8_rosConfig.cmake
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/pkgconfig/yolov8_ros.pc /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/yolov8_ros.pc
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/test.py /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/test.py
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/detect_3d_node.py /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/detect_3d_node.py
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/cmake.lock /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/cmake.lock
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/yolov8_node.py /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/yolov8_node.py
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/stop_nav.py /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/stop_nav.py
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/start_node_script.py /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/start_node_script.py
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/debug_node.py /home/dyros/catkin_ws_v2/devel/lib/yolov8_ros/debug_node.py

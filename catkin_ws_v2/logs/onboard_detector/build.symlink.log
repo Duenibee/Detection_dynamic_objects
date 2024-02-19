@@ -1,0 +1,6 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/onboard_detector/cmake/onboard_detectorConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/onboard_detector/cmake/onboard_detectorConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/libonboard_detector.so
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/onboard_detector/detector_node
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/onboard_detector/fake_detector_node
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/onboard_detector.pc

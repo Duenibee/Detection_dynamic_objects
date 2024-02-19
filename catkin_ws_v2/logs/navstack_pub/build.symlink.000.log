@@ -1,0 +1,4 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/navstack_pub/cmake/navstack_pubConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/navstack_pub/cmake/navstack_pubConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/navstack_pub/obstacle_detect
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/navstack_pub.pc

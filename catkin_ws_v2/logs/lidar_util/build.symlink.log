@@ -1,0 +1,4 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/lidar_util/cmake/lidar_utilConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/lidar_util/cmake/lidar_utilConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/lidar_util/laser2pcl
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/lidar_util.pc

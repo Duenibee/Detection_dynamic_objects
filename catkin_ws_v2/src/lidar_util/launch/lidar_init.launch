@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="ip_address" default="192.168.0.10"/> 
+  <arg name="frame_id" default="base_laser_front_link"/> 
+
+  <node name="urg_node" pkg="urg_node" type="urg_node" args="_ip_address:=$(arg ip_address) _frame_id:=$(arg frame_id)">
+    <param name="range_min" value="0.1"/>
+    <!-- <param name="angle_max" value="1.5707963"/> -->
+    <!-- <remap from="/scan" to="/raw_scan"/> -->
+  </node>
+  <node pkg="laser_filters" type="scan_to_scan_filter_chain"
+      name="laser_filter">
+    <rosparam command="load" file="/home/dyros/catkin_junhee_ws/src/lidar_util/launch/my_laser_config.yaml" />
+
+  </node>
+</launch>

@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake

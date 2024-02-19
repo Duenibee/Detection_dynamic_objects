@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/map_manager/include/map_manager/CheckCollision.h

@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/lib/yolov8_ros/start_node_script.py

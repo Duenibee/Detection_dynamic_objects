@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dyros/catkin_ws_v2/devel/.private/lidar_util/setup.sh

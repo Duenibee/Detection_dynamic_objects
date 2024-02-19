@@ -1,0 +1,8 @@
+prefix=/home/dyros/catkin_ws_v2/devel/.private/navstack_pub
+
+Name: navstack_pub
+Description: Description of navstack_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,4 @@
+Symlinking /home/dyros/catkin_ws_v2/devel/share/cartographer_rviz/cmake/cartographer_rvizConfig-version.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/share/cartographer_rviz/cmake/cartographer_rvizConfig.cmake
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/libcartographer_rviz.so
+Symlinking /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/cartographer_rviz.pc

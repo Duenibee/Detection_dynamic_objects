@@ -1,0 +1,51 @@
+# footprint: [[-0.2625, 0.2725], [0.2625, 0.2725], [0.2625, -0.2725], [-0.2625, -0.2725]]
+
+# transform_tolerance: 2.0
+# robot_base_frame: base_link
+
+# map_type: costmap
+
+# obstacle_layer:
+#   enabled: true
+#   max_obstacle_height:  1.113     
+#   obstacle_range: 3.0
+#   raytrace_range: 3.2
+    
+#   unknown_threshold:    15        
+#   mark_threshold:       0         
+#   combination_method:   1         
+#   track_unknown_space:  true      
+
+#   publish_voxel_map: false
+#   min_obstacle_height: 0.0
+#   max_obstacle_height: 0.5
+#   observation_sources: scan
+#   scan: {sensor_frame: base_laser_front_link, data_type: LaserScan, topic: scan, marking: true, clearing: true}
+
+# inflation_layer:
+#   enabled: true
+#   cost_scaling_factor: 20.0 
+#   inflation_radius: 0.4
+  
+# static_layer:
+#   enabled: true
+
+
+footprint: [[-0.3, -0.15], [-0.3, 0.15], [0.3, 0.15], [0.3, -0.15]]
+
+#layer definitions
+static:
+  unknown_cost_value: -1
+  lethal_cost_threshold: 100
+  map_topic: map
+  first_map_only: false
+  subscribe_to_updates: false
+  track_unknown_space: false
+  use_maximum: false
+  trinary_costmap: true
+obstacles_laser:
+  observation_sources: scan_filtered
+  scan_filtered: {sensor_frame: base_laser_front_link, data_type: LaserScan, clearing: true, marking: true, topic: scan_filtered, min_obstacle_height: -10.0, max_obstacle_height: 10.0, obstacle_range: 4.0, raytrace_range: 6.0, observation_persistence: 0.5}
+
+inflation:
+  inflation_radius: 1.0

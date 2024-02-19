@@ -1,0 +1,6 @@
+devel_space: /home/dyros/catkin_ws_v2/devel
+install: false
+install_space: /home/dyros/catkin_ws_v2/install
+profile: default
+source_space: /home/dyros/catkin_ws_v2/src
+workspace: /home/dyros/catkin_ws_v2

@@ -1,0 +1,8 @@
+prefix=/home/dyros/catkin_ws_v2/devel/.private/pose_publisher
+
+Name: pose_publisher
+Description: Description of pose_publisher
+Version: 0.1.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

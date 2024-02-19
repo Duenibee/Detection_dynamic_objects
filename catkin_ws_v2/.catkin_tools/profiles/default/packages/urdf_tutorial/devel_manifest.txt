@@ -1,0 +1,5 @@
+urdf_tutorial
+/home/dyros/catkin_ws_v2/devel/.private/urdf_tutorial/cmake.lock /home/dyros/catkin_ws_v2/devel/./cmake.lock
+/home/dyros/catkin_ws_v2/devel/.private/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake /home/dyros/catkin_ws_v2/devel/share/urdf_tutorial/cmake/urdf_tutorialConfig-version.cmake
+/home/dyros/catkin_ws_v2/devel/.private/urdf_tutorial/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake /home/dyros/catkin_ws_v2/devel/share/urdf_tutorial/cmake/urdf_tutorialConfig.cmake
+/home/dyros/catkin_ws_v2/devel/.private/urdf_tutorial/lib/pkgconfig/urdf_tutorial.pc /home/dyros/catkin_ws_v2/devel/lib/pkgconfig/urdf_tutorial.pc

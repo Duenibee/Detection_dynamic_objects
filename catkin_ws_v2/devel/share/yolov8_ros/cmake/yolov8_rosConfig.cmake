@@ -1,0 +1,1 @@
+/home/dyros/catkin_ws_v2/devel/.private/yolov8_ros/share/yolov8_ros/cmake/yolov8_rosConfig.cmake

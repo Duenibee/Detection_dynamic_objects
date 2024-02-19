@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target order_cmd_vel[0m
+[35m[1mScanning dependencies of target order_cmd_vel2[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/order_cmd_vel2.dir/src/order_cmd_vel2.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/order_cmd_vel.dir/src/order_cmd_vel.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/dyros/catkin_ws_v2/devel/.private/odom_to_trajectory/lib/odom_to_trajectory/order_cmd_vel2[0m
+[100%] [32m[1mLinking CXX executable /home/dyros/catkin_ws_v2/devel/.private/odom_to_trajectory/lib/odom_to_trajectory/order_cmd_vel[0m
+[100%] Built target order_cmd_vel2
+[100%] Built target order_cmd_vel
