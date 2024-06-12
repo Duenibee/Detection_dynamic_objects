@@ -2,6 +2,9 @@
 ![image](https://github.com/Duenibee/detection_dynamic_objects/assets/89338327/020fa68b-383c-4fbb-a09e-b3d804e4c587)
 
 catkin_ws_v2 의 패키지 참조.
+사용 센서
+2D LiDAR : Hokuyo UTM-30LX-EW
+RGB-D camera : RealSense D435i
 
 twist mux 실행(조이스틱 명령 우선순위 출력)
 
